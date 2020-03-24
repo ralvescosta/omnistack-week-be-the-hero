@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/helmet": "^0.0.45",
+    "@types/node": "^8.0.29",
+    "ts-node": "3.3.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.15.4",
+    "helmet": "^3.21.3",
+    "mysql": "^2.14.1",
+    "pg": "^7.18.2",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.24"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --inspect -- src/index.ts"
+  }
+}

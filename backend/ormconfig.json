@@ -1,0 +1,40 @@
+[
+  {
+    "name": "development",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "123456",
+    "database": "omnistack",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/entity/**/*.ts"],
+    "migrations": ["src/migration/**/*.ts"],
+    "subscribers": ["src/subscriber/**/*.ts"],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    }
+  },
+  {
+    "name": "production",
+    "type": "postgres",
+    "host": "HOST",
+    "port": 5432,
+    "username": "postgres",
+    "password": "123456",
+    "database": "omnistack",
+    "synchronize": false,
+    "logging": false,
+    "entities": ["src/typeorm/entity/**/*.ts"],
+    "migrations": ["src/typeorm/migration/**/*.ts"],
+    "seeds": ["src/typeorm/seeders/**/*.ts"],
+    "subscribers": ["src/typeorm/subscriber/**/*.ts"],
+    "cli": {
+      "migrationsDir": ["src/typeorm/migration"],
+      "seedsDir": ["src/typeorm/seeders"]
+    }
+  }
+]
