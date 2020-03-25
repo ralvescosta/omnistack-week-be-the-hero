@@ -1,7 +1,21 @@
-# Awesome Project Build with TypeORM
+# Backend
 
-Steps to run this project:
+### UTILS - TypeORM CLI
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+- Create a New Migration
+
+```
+yarn ts-node ./node_modules/typeorm/cli.js migration:create -n MigrationName
+```
+
+- Run Migrations
+
+```
+yarn ts-node ./node_modules/typeorm/cli.js migration:run -c development
+```
+
+- Undo Migrations
+
+```
+yarn ts-node ./node_modules/typeorm/cli.js migration:revert -c development
+```

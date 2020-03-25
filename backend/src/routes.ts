@@ -1,7 +1,12 @@
-import {Router} from 'express';
+import { Router } from 'express'
 
-const routes = Router();
+import OngsController from './controller/OngsController'
 
-routes.get('/users', (req,res)=>{return res.json({hello: 'word'})});
+const routes = Router()
 
-export default routes;
+routes.post('/ongs', OngsController.store)
+routes.get('/ongs', OngsController.index)
+routes.get('/ongs/:id', OngsController.show)
+routes.delete('/ongs/:id', OngsController.delete)
+
+export default routes
