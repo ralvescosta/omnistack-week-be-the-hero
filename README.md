@@ -1,16 +1,14 @@
 # Omnistack Week
 
-<div style="text-align:center">
-
 <!-- LOGO -->
+<div align="center">
 <img src="./assets/logo.svg" />
-
+</div>
 <!-- SHILD -->
-<div style="margin-top:20px">
+<div style="margin-top:20px" align="center">
 <a href="http://rocketseat.com.br" alt="RocketSeat">
 <img src="./assets/shild.svg" />
 </a>
-</div>
 </div>
 
 ---
