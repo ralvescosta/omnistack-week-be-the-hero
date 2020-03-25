@@ -7,7 +7,7 @@
 <div></div>
 <!-- SHILD -->
 <div style="margin-top:20px" align="center">
-<a href="http://rocketseat.com.br" alt="RocketSeat">
+<a href="http://rocketseat.com.br" alt="RocketSeat" target="_blank">
 <img src="./assets/shild.svg" />
 </a>
 </div>
