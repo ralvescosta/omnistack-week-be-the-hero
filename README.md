@@ -4,14 +4,13 @@
 <div align="center">
 <img src="./assets/logo.svg" />
 </div>
+<div></div>
 <!-- SHILD -->
 <div style="margin-top:20px" align="center">
 <a href="http://rocketseat.com.br" alt="RocketSeat">
 <img src="./assets/shild.svg" />
 </a>
 </div>
-
----
 
 <!-- TABLE OF CONTENTS -->
 
@@ -27,8 +26,6 @@
 - [Contato](#contato)
 
 <!-- ABOUT -->
-
----
 
 ## Sobre o Projeto
 
