@@ -16,9 +16,6 @@ export class Incidents extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column()
-  name: string;
-
   /** */
   @Column()
   ongId: string;
@@ -29,10 +26,13 @@ export class Incidents extends BaseEntity {
   /** */
 
   @Column()
+  title: string;
+
+  @Column()
   description: string;
 
   @Column()
-  value: boolean;
+  value: number;
 
   @CreateDateColumn({ type: 'timestamptz' })
   createdAt: Date;

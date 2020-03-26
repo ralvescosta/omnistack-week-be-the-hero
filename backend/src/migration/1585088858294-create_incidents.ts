@@ -18,13 +18,18 @@ export class CreateIncidents1585088858294 implements MigrationInterface {
           isNullable: false
         },
         {
+          name: 'title',
+          type: 'varchar',
+          isNullable: false
+        },
+        {
           name: 'description',
           type: 'varchar',
           isNullable: false
         },
         {
           name: 'value',
-          type: 'boolean',
+          type: 'int',
           isNullable: false
         },
 

@@ -1,10 +1,12 @@
 {
+  "author": "Rafael Alves Costa",
   "name": "backend",
   "version": "0.0.1",
-  "description": "Awesome project developed with TypeORM.",
+  "description": "Omnistack 11",
   "devDependencies": {
     "@types/cors": "^2.8.6",
     "@types/dotenv": "^8.2.0",
+    "@types/hapi__joi": "^16.0.12",
     "@types/helmet": "^0.0.45",
     "@types/node": "^8.0.29",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
@@ -20,6 +22,7 @@
     "typescript": "3.3.3333"
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "body-parser": "^1.18.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
