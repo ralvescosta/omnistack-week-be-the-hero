@@ -55,7 +55,15 @@ Para o desenvolvimento do **Frontend** utilizou-se **ReactJS** e os seguintes fr
 Por fim, o desenvolvimento do **App Mobile** utilizou-se **React Native** e os seguintes frameworks:
 
 - Axios
+- React Navigation
+- React Vector Icons
+- Expo-Mail-Composer
+- Intl
 
 ---
 
-## Instalacoes
+## ISSUES
+
+- Modulo React Native Vector Icon nao esta importando os icons da Biblioteca Feather
+
+- Apos configurar a aplicação com o unimodules do expo para utilizar o pacote Expo-Mail-Composer, o mesmo não executa sua funcionalidade

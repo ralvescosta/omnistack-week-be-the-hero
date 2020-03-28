@@ -2,19 +2,23 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import Profile from './screens/Profile';
-// import Article from '../screens/Article';
+import Incidents from './screens/Incidents';
+import Details from './screens/Details';
 
 const Stack = createStackNavigator();
 
-function App() {
+function Navigation() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Navigator
+        screenOptions={{headerShown: false}}
+        initialRouteName="Incidents"
+        mode="card">
+        <Stack.Screen name="Incidents" component={Incidents} />
+        <Stack.Screen name="Detail" component={Details} />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
 
-export default App;
+export default Navigation;
