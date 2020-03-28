@@ -21,7 +21,7 @@ import IncidentsSchema from './validators/IncidentsSchema'
 
 const routes = Router()
 
-routes.post('/session', SessionController.store)
+routes.post('/sessions', SessionController.store)
 
 routes.post('/ongs', validator(OngsSchema.store), OngsController.store)
 routes.get('/ongs', OngsController.index)

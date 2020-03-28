@@ -36,15 +36,19 @@ Este projeto foi desenvolvimento durante a Semana Omnistack 11, idealizada pela 
 O **Backen** foi construido em **NodeJS** utilizando os seguintes frameworks:
 
 - Express
+- PostgresQL
 - TypeORM
 - Cors
 - Helmet
+- @hapi/joi
 
 ### Frontend
 
 Para o desenvolvimento do **Frontend** utilizou-se **ReactJS** e os seguintes framkeworks:
 
 - Axios
+- React Router DOM
+- React Icons
 
 ### Mobile
 

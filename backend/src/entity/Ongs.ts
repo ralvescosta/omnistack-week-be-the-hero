@@ -14,7 +14,7 @@ export class Ongs extends BaseEntity {
   email: string;
 
   @Column()
-  whatsaap: string;
+  whatsapp: string;
 
   @Column()
   city: string;

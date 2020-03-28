@@ -22,7 +22,7 @@ export class createOngs1585087474820 implements MigrationInterface {
           isNullable: false
         },
         {
-          name: 'whatsaap',
+          name: 'whatsapp',
           type: 'varchar',
           isNullable: false
         },
